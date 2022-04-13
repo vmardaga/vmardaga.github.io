@@ -1,0 +1,28 @@
+:root {
+	--primary-color: rgb(191, 97, 106);
+	--text-color: #25283D;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: Charter, Palatino, serif;
+	color: var(--text-color);
+}
+
+.main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	text-align: center;
+}
+
+h1 {
+	font-size: 5em;
+	font-weight: normal;
+}
